@@ -1,5 +1,5 @@
 # LoRa-TX-RX-Test
-Very simple and basic software to enable testing of LoRa for model submarine use. Only 4 channels and 4 times a second refresh rate used.
+Very simple and basic software to enable testing of LoRa modulation system for model submarine use at 433 MHz. Only 4 channels and 4 times a second refresh rate used.
 Uses standard defaults for RadioLib:
 SX127x/RFM9x - LoRa modem
 Begin method:
