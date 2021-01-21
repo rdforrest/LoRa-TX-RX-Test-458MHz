@@ -1,5 +1,5 @@
 # LoRa-TX-RX-Test
-Very simple and basic software to enable testing of LoRa modulation system for model submarine use at 433 MHz. Only 4 channels and 4 times a second refresh rate used.
+Very simple and basic software to enable testing of LoRa modulation system for model submarine use at 434 MHz. This has NOT been tested in a model sub as yet because of the Covid lockdown. Only 4 channels and 4 times a second refresh rate used to provide a minimalistic control system. Has a failsafe which is activated after 10 seconds of no signal.
 Uses standard defaults for RadioLib:
 SX127x/RFM9x - LoRa modem
 Begin method:
@@ -18,4 +18,4 @@ LoRa header mode: explicit
 Frequency hopping: disabled.
 Hardware:
 2 Nano Everys at TX. One converts ppm to serial data.
-RX uses Nano or Nano Every and Semtech SX1278 LORA Module with a logic level convertor.
+RX uses Nano or Nano Every and a Semtech SX1278 LORA Module with a logic level convertor.
