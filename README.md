@@ -18,5 +18,4 @@ Inaccessible:
 LoRa header mode: explicit
 Frequency hopping: disabled.
 Hardware:
-2 Nano Everys at TX. One converts ppm to serial data.
-RX uses Nano or Nano Every and a Semtech SX1278 LORA Module with a logic level convertor.
+Nanos for TX and RX. 
