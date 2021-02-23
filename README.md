@@ -1,4 +1,4 @@
-# LoRa-TX-RX-Test
+# LoRa-TX-RX-Test-458MHz
 Very simple and basic software to enable testing of LoRa modulation system for model submarine use at 458 MHz using the SX1278 chip. This has NOT been tested in a model sub as yet because of the Covid lockdown. Only 6 channels and 4 times a second refresh rate used to provide a minimalistic control system for test purposes only. Has a failsafe which is activated after 10 seconds of no signal. The failsafe values are set in the software.
 Uses standard defaults for RadioLib but with Frequency set to 458.75 and Bandwidth set to 62.5kHz for the UK (Thanks to Simon H for the suggestion. Edit SX1278.h file in src/modules in RadioLib to set this.)
 Thanks to Jonathan Askey for suggesting and providing the accurate ppm reader. (The simpler ppm routine by David Vella gives an interrupt clash.)
