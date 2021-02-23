@@ -38,6 +38,10 @@
 
    For full API reference, see the GitHub Pages
    https://jgromes.github.io/RadioLib/
+
+  Frequency set to 458.75 MHz and Bandwidth set to 62.5
+  by RDF in the SX1278.h file in Arduno/libraries/RadioLib/src/modules/SX1278x/SX1278.h
+
 */
 
 /*
