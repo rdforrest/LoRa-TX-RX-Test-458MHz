@@ -3,6 +3,7 @@ Very simple and basic software to enable testing of LoRa modulation system for m
 Uses standard defaults for RadioLib but with Frequency set to 458.75 and Bandwidth set to 62.5kHz for the UK (Thanks to Simon H for the suggestion. Edit SX1278.h file in src/modules in RadioLib to set this.)
 Thanks to Jonathan Askey for suggesting and providing the accurate ppm reader. (The simpler ppm routine by David Vella gives an interrupt clash.)
 SX127x/RFM9x - LoRa modem
+Also the Adafruit RFM95W can be used.
 Begin method:
 Carrier frequency: 434.0 MHz (for SX1276/77/78/79 and RFM96/98) or 915.0 MHz (for SX1272/73 and RFM95/97)
 Bandwidth: 125.0 kHz (dual-sideband)
