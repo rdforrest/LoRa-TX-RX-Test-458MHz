@@ -111,14 +111,27 @@ void loop()
   else {
     // set time interval (milliseconds)
     if (currentMillis - previousMillis >= interval) {
-      Serial.println("Failsafe activated");
+      Serial.println("Failsafe values");
       // FAILSAFE values (1000 to 2000)
       val1 = 1600; // This is often for steering, so slight turn
-      val2 = 2000;
-      val3 = 2000;
-      val4 = 2000;
-      val5 = 2000; // This often for piston tank, so empty
-      val6 = 1950; // This is often for speed control, so slight ahead
+      val2 = 1750;
+      val3 = 1750;
+      val4 = 1750;
+      val5 = 1280; // This is often for piston tank, so empty
+      val6 = 1660; // This is often for speed control, so slight ahead
+
+      Serial.print((val1 - 1000) / 4);
+      Serial.print("\n"); //newline
+      Serial.print((val2 - 1000) / 4);
+      Serial.print("\n"); //newline
+      Serial.print((val3 - 1000) / 4);
+      Serial.print("\n"); //newline
+      Serial.print((val4 - 1000) / 4);
+      Serial.print("\n"); //newline
+      Serial.print((val5 - 1000) / 4);
+      Serial.print("\n"); //newline
+      Serial.print((val6 - 1000) / 4);
+      Serial.print("\n"); //newline
 
       // servo.writes to position
       ch1.write(val1);

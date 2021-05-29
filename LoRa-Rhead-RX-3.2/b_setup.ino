@@ -25,13 +25,13 @@ ServoTimer2 ch4;
 ServoTimer2 ch5;
 ServoTimer2 ch6;
 
-  // FAILSAFE values (0 to 250)
-  int val1 = 133;
-  int val2 = 133;
-  int val3 = 133;
-  int val4 = 133;
-  int val5 = 33;
-  int val6 = 140;
+  // FAILSAFE values
+  int val1 = 0;
+  int val2 = 0;
+  int val3 = 0;
+  int val4 = 0;
+  int val5 = 0;
+  int val6 = 0;
 
 // RDF setup
 #define RFM95_CS 4
