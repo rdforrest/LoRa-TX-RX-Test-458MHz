@@ -4,11 +4,11 @@ void loop()
   // ppm input
   for (int i = 0; i < 8; i++)   //display all channels
   {
-    //  ppmValues[i] = ((((ppmValues[i]) / 2) - 1000) / 4); // the array value is processed to bring it back to real world value
-    ppmValues[i] = ((((ppmValues[i]) / 2) - 870) / 4); // was 870fiddle factors to get array value back to real world value
+    // ppmValues[i] = ((((ppmValues[i]) / 2) - 1000) / 4); // the array value is processed to bring it back to real world value
+    ppmValues[i] = ((((ppmValues[i]) / 2) - 870) / 4); // was 870. Fiddle factors to get array value back to real world value. Maybe use map() function to scale inputs?
     byteArr[i] = ppmValues[i]; // Store in Byte array
     // Serial.print(ppmValues[i]);
-    //  Serial.print("  ");
+    // Serial.print("  ");
   }
   // Stick output
   Serial.print("Stick output  ");
