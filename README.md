@@ -1,5 +1,5 @@
 # LoRa-TX-RX-Test-458MHz
-Fairly simplesoftware to enable testing of LoRa modulation system for model submarine use at 458 MHz using the SX1278 chip. (Model Control Band in UK 458.5 -
+Fairly simple software to enable testing of LoRa modulation system for model submarine use at 458 MHz using the SX1278 chip. (Model Control Band in UK 458.5 -
 459.5 MHz This system has been tested and gives a range of about 70m at a submerged depth of 0.5m. Test details :https://www.theassociationofmodelsubmariners.com/t83p225-openlrs-on-458mhz-and-433mhz-and-submarines#11599 Only 6 channels and 5 times a second refresh rate used to provide a control system for test purposes only. Has a failsafe which is activated after 10 seconds of no signal. Also includes a Telemetry system with 3 channels and software for INA219 which sends current and voltage data.
 This is displayed at the Transmitter on an oLED screen fed from another Nano using the openlrs-receive-data-oLED-2.3.ino software. 
 The RadioHead library version will be the one going ahead for development.
