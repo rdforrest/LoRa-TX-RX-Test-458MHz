@@ -23,3 +23,5 @@ LoRa header mode: explicit
 Frequency hopping: disabled.
 Hardware:
 Nanos for TX and RX. 
+
+Sept 2021 Update. Works well and being actively tested in a couple of model subs.
