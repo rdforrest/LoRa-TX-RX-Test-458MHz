@@ -24,4 +24,4 @@ Frequency hopping: disabled.
 Hardware:
 Nanos for TX and RX. 
 
-Sept 2021 Update. Works well and being actively tested in a couple of model subs.
+May 2022 Update. Still works well and being actively used in several model subs.
