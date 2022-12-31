@@ -9,7 +9,7 @@
   Date        rev,    who      what
   17/06/2021  3.4     RDF      Added continuous Telemetry transmit to RX.  Helps locate lost submarines
   29/06/2021  3.5     RDF      Reduced to 6 channel.
-  6/07/2021   3.6     RDF      Included Adafruit MPLRS pressure sensor. Works well after a number of sailings. Surfsce value = 3. Dived to 0.5 m = 8
+  6/07/2021   3.6     RDF      Included Adafruit MPLRS pressure sensor
    Uses RadioHead library
    http://www.airspayce.com/mikem/arduino/RadioHead/
    For 6 channel radio control using LoRa.
@@ -126,7 +126,4 @@
   RST: most modules have a hardware reset pin. If the module doesn't have a reset or chip enable pin (e.g. CC1101), set rst to RADIOLIB_NC.
   GPIO: this is the fourth possible pin. It's optional for most modules, but may be required for some. SX127x requires additional interrupt pin to perform CAD and blocking receive. SX126x also uses this pin as the BUSY indication pin. If not in use, this pin can be left unassigned, or set to RADIOLIB_NC.
 
-
-// Adafruit_MPRLS pressure sensor
-// Included Adafruit MPLRS pressure sensor. Works well after a number of sailings. Surfsce value = 3. Dived to 0.5 m = 8
 */
