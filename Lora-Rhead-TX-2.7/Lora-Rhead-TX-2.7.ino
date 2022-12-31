@@ -1,6 +1,6 @@
 /*
   Name:       Lora-Rhead-TX
-  Date:       3 May 2022
+  Date:       5 July 2021
   Brief:      Radio-control by Lora for TX
   Author:     David Forrest
 
@@ -10,7 +10,7 @@
   17/06/2021  2.6     RDF      Added continuous Telemetry transmit to RX to help locate lost submarines
   29/6/2021   2.7     RDF      Map used to scale TX stick inputs
   5/07/2021   2.7     RDF      Tested in Nordenfelt sub.
-  30/4/2022   2.7     RDF      Hardware suggestion re: bare SX1278 chip (see comments below)
+
    Uses RadioHead library
    http://www.airspayce.com/mikem/arduino/RadioHead/
    For 6 channel radio control using LoRa.
@@ -46,11 +46,9 @@
    Note due to increased accuracy values are read to 0.5us
    To get the array values back to real world full 'us' values the array value must be divided by 2
   Hardware connections
-  - For TX only, use pin D8 as ppm in
+  - For TX only, use pin 8 as ppm in
   - For TX only, use pin D6 TX for the serial output to Telemetry !
   - For TX only, 5v sounder on pin D7
-  - For TX only, Transmitter output voltage to VIN on Nano
-  - For TX only, GND from Transmitter to GND on Nano
   - For RX only, Servo outputs pins D5 to D10
 
   /*
@@ -69,8 +67,7 @@
   VIN                 5V
 
   OR:
-  For bare SX1278 chip connecting to Arduino Nano through level shifter 
-  (April 2022. I haven't found this setup very reliable in actual use. Contact lost every few minutes, can be restored by switching TX off and on.)
+  For bare SX1278 chip connecting to Arduino Nano through level shifter
   Semtech SX1278 LORA Module Long Range RF Wireless DRF1278F SPI Arduino Pi IoT UK
   Condition:New.   Ebay UK. tangle.of.tings (4151)   153412183277
 
