@@ -24,4 +24,5 @@ Frequency hopping: disabled.
 Hardware:
 Nanos for TX and RX. 
 
-May 2022 Update. Still works well and being actively used in several model subs.
+July 2024 Update. Still works well and being actively used in several model subs. Some small mods in latest versions (4.2 & 2.9) to reduce latency.
+Watch out for small switch-mode power supplies which can give servo pulses when a large number of servos are used. Use linear voltage regulators here.
